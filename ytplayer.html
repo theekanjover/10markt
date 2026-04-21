@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>YouTube Player</title>
+
     <style>
         body {
             margin: 0;
@@ -11,11 +12,14 @@
             font-family: Segoe UI, sans-serif;
         }
 
-        #playerFrame {
+        /* Main video WebView */
+        #playerWebView {
+            position: absolute;
+            top: 0;
+            left: 0;
             width: 100vw;
             height: 100vh;
-            border: none;
-            display: none;
+            visibility: hidden; /* UWP-safe */
         }
 
         #error {
@@ -35,11 +39,11 @@
             border: 1px solid rgba(255,255,255,0.3);
             cursor: pointer;
             display: none;
-            z-index: 20;
+            z-index: 50;
         }
 
-        /* Slide‑in chat panel */
-        #chatPanel {
+        /* Chat panel wrapper (safe to animate) */
+        #chatWrapper {
             position: fixed;
             top: 0;
             right: -400px;
@@ -48,10 +52,11 @@
             background: #111;
             border-left: 1px solid #333;
             transition: right 0.25s ease;
-            z-index: 19;
+            z-index: 40;
         }
 
-        #chatFrame {
+        /* Chat WebView (never animate directly) */
+        #chatWebView {
             width: 100%;
             height: 100%;
             border: none;
@@ -64,13 +69,13 @@
 </head>
 <body>
 
-<iframe id="playerFrame" allowfullscreen></iframe>
+<x-ms-webview id="playerWebView"></x-ms-webview>
 <div id="error">unable to connect</div>
 
 <button id="chatBtn">Chat</button>
 
-<div id="chatPanel">
-    <iframe id="chatFrame"></iframe>
+<div id="chatWrapper">
+    <x-ms-webview id="chatWebView"></x-ms-webview>
 </div>
 
 <script>
@@ -80,25 +85,30 @@
     var params = new URLSearchParams(window.location.search);
     var videoId = params.get("id");
 
-    var frame = document.getElementById("playerFrame");
+    var player = document.getElementById("playerWebView");
     var error = document.getElementById("error");
     var chatBtn = document.getElementById("chatBtn");
-    var chatPanel = document.getElementById("chatPanel");
-    var chatFrame = document.getElementById("chatFrame");
+    var chatWrapper = document.getElementById("chatWrapper");
+    var chatWebView = document.getElementById("chatWebView");
 
     if (!videoId) {
         error.style.display = "block";
         return;
     }
 
-    // Load the video
+    // Load video
     var embedUrl = "https://www.youtube.com/embed/" + encodeURIComponent(videoId);
-    frame.src = embedUrl;
-    frame.onload = function () {
-        frame.style.display = "block";
-    };
+    player.navigate(embedUrl);
 
-    // Detect if it's a live stream using YouTube oEmbed
+    player.addEventListener("MSWebViewNavigationCompleted", function (ev) {
+        if (ev.isSuccess) {
+            player.style.visibility = "visible";
+        } else {
+            error.style.display = "block";
+        }
+    });
+
+    // Detect live stream
     var oembedUrl = "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=" 
                     + encodeURIComponent(videoId) + "&format=json";
 
@@ -106,25 +116,22 @@
         .then(function (res) { return res.json(); })
         .then(function (data) {
             if (data && data.live_broadcast === "live") {
-                // Show chat button
                 chatBtn.style.display = "block";
 
-                // Set chat iframe
-                chatFrame.src =
-                    "https://www.youtube.com/live_chat?v=" + encodeURIComponent(videoId) + "&embed_domain=" + location.hostname;
+                var chatUrl =
+                    "https://www.youtube.com/live_chat?v=" + encodeURIComponent(videoId) +
+                    "&embed_domain=" + location.hostname;
+
+                chatWebView.navigate(chatUrl);
             }
         })
         .catch(function () {
-            // If oEmbed fails, do nothing
+            // ignore
         });
 
-    // Toggle chat panel
+    // Toggle chat panel (animate wrapper, NOT WebView)
     chatBtn.onclick = function () {
-        if (chatPanel.classList.contains("open")) {
-            chatPanel.classList.remove("open");
-        } else {
-            chatPanel.classList.add("open");
-        }
+        chatWrapper.classList.toggle("open");
     };
 })();
 </script>
