@@ -1,12 +1,21 @@
 <?php
-// Put this at the VERY top, inside the PHP tag!
+// 1. Handle CORS Preflight immediately
+if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
+    header('Access-Control-Allow-Origin: *');
+    header('Access-Control-Allow-Methods: POST, GET, OPTIONS');
+    header('Access-Control-Allow-Headers: Content-Type, Authorization');
+    header('HTTP/1.1 200 OK');
+    exit();
+}
+
+// 2. Set headers for the actual response
+header('Access-Control-Allow-Origin: *');
+header('Content-Type: application/json');
+
+// 3. Prevent error leaking
 ini_set('display_errors', 0);
 ini_set('log_errors', 1);
 error_reporting(E_ALL);
-
-header('Access-Control-Allow-Origin: *');
-header('Access-Control-Allow-Headers: Content-Type');
-header('Content-Type: application/json');
 
 // 🔒 Fetch the keys from the server's environment variables
 $geminiApiKey = getenv('GEMINI_API_KEY');
