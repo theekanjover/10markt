@@ -764,4 +764,46 @@
     <mobileCapable>false</mobileCapable>
     <win81compatible>true</win81compatible>
   </app>
+  <app id="e-indows-usic">
+    <name>ReWindowsMusic</name>
+    <version>1.0.0.0</version>
+    <icon>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/storelogo.scale-100-1777920740.png</icon>
+    <publisher>ReOpenGlebsur</publisher>
+    <featured>false</featured>
+    <description>🖥️ ReWindowsMusic – Desktop Edition (Windows 8.1)
+    ReWindowsMusic Desktop is a full‑featured, modern music player designed for Windows desktop environments. It brings together local music playback, online streaming, podcast support, and YouTube audio in one elegant, Chromium‑based (or UWP) application.
+    ✨ Key Features for Desktop
+    🎵 Multi‑Source Music Library
+    Play tracks from your local XML feed, JSON collections, or external APIs.
+    📀 Advanced Playlist Manager
+    Create, edit, rename, and delete playlists; all saved locally in localStorage (or optional cloud sync).
+    🎙️ Podcasts (PodCats)
+    Subscribe to podcast RSS/XML feeds and enjoy episodes with a dedicated player.
+    📂 ReOpenTracks
+    Access a massive library of 150+ licensed tracks from opsrvlega.atwebpages.com/music.json.
+    🎵 ReZenDo API
+    Search millions of songs from ZenDoMusic and get random recommendations.
+    ▶️ YouTube Music Integration
+    Search YouTube videos, extract audio via LegacyProjects API, and stream directly – no separate tab needed.
+    🔍 Instant Search
+    Filter tracks, artists, or podcasts with real‑time, case‑insensitive search.
+    ⚡ Playback Speed Control
+    Adjust speed from 0.5x to 2.0x – ideal for learning, remixing, or fast listening.
+    🔊 Volume &amp; Equalizer Presets (basic)
+    Independent volume slider and speed buttons.
+    🖱️ Full Keyboard &amp; Mouse Support
+    Use media keys (if system‑wide hotkeys are enabled), plus intuitive mouse controls.
+    🎚️ Progress Bar with Seeking
+    Click or drag to any position in the current track.
+    🔄 Loop &amp; Shuffle (shuffle optional – can be added)
+    Repeat single track or entire playlist.
+    🎨 Responsive Design
+    Adapts to any window size – from compact (500px) to full‑HD widescreen.
+    🌙 Dark Theme by Default
+    Easy on the eyes for late‑night listening.</description>
+    <package>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/ReWinMusIc_1.0.0.1_AnyCPU_Debug-1777920738.appx</package>
+    <pcCapable>true</pcCapable>
+    <mobileCapable>false</mobileCapable>
+    <win81compatible>true</win81compatible>
+  </app>
 </data>
