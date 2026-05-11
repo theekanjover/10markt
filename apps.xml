@@ -7,7 +7,7 @@
   </quotes>
   <categories>
     <category title="Featured" type="featured"/>
-    <category title="Top free apps" type="picks">
+    <category title="Staff picks" type="picks">
       <appIds>etro-ommander,8-ip,ports,resh-aint-uwp,etflix</appIds>
     </category>
     <category title="Picks for you" type="picks">
