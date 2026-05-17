@@ -185,6 +185,7 @@
     <screenshot1>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/Untitled-1775753553.png</screenshot1>
     <pcCapable>true</pcCapable>
     <mobileCapable>true</mobileCapable>
+    <drayYTproject>true</drayYTproject>
   </app>
   <app id="iano-ime-ro">
     <name>Piano Time Pro</name>
