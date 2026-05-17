@@ -861,7 +861,7 @@
     <drayYTproject>true</drayYTproject>
   </app>
   <app id="ytube-for-indows-hone">
-    <name>Mytube for Windows Phone</name>
+    <name>myTube</name>
     <version>35.39.0</version>
     <icon>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/StoreLogo.scale-400-1777989327.png</icon>
     <publisher>Ryken Studio</publisher>
