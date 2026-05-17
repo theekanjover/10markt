@@ -1236,8 +1236,8 @@
     <mobileCapable>false</mobileCapable>
     <win81compatible>true</win81compatible>
   </app>
-    <app id="the-newark-and-grantham">
-    <name>DrayAi</name>
+  <app id="the-newark-and-grantham">
+    <name>The Newark &amp; Grantham Railway</name>
     <version>3.3.0.0</version>
     <icon>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/Square150x150Logo.scale-400-1775753552.png</icon>
     <publisher>DraydenYT</publisher>
