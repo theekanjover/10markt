@@ -149,7 +149,7 @@
     <pcCapable>true</pcCapable>
     <mobileCapable>false</mobileCapable>
   </app>
-  <app id="8-ip-81">
+  <app id="8-ip">
     <name>8Zip</name>
     <version>1.2.103.1000</version>
     <icon>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/descarga-1-1775491174.png</icon>
