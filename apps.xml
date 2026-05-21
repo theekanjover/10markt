@@ -10,7 +10,7 @@
   <categories>
     <category title="Featured" type="featured"/>
     <category title="Picks for you" type="picks">
-      <appIds>ut-he-ope,draymusic,lumia-camera,smiling-bag-clicker-for-windows-8-1,pp-for-indows,dobe-eader-ouch,dobe-hotoshop-xpress</appIds>
+      <appIds>ut-the-ope,draymusic,lumia-camera,smiling-bag-clicker-for-windows-8-1,pp-for-indows,dobe-eader-ouch,dobe-hotoshop-xpress</appIds>
     </category>
     <category title="Top Games" type="picks">
       <appIds>ut-the-ope,smiling-bag-clicker-for-windows-8-1,inecraft</appIds>
@@ -30,11 +30,11 @@
     <category title="Apps" type="picks">
       <appIds>msn-weather,draymusic,lumia-camera,msn-news,msn-money,ray-usic-for-indows-10,enon-tore,etro-ommander,8-ip,ray-i-or-indows-10,ports,etronome,peak,10-tore-1-0-atched,10-tore,hris-illo-usic,ing,etflix,z-lay-eady-upiter-pp,resh-aint,hrome-etro-lient</appIds>
     </category>
+    <category title="lost Media" type="picks">
+      <appIds>onnect4,ing,z-lay-eady-upiter-pp,uma-horts</appIds>
+    </category>
     <category title="Windows Phone Apps" type="picks">
       <appIds>inecraft,lumia-camera</appIds>
-    </category>
-    <category title="Lost Media" type="picks">
-      <appIds>onnect4,ing,z-lay-eady-upiter-pp,uma-horts</appIds>
     </category>
   </categories>
   <apps/>
@@ -74,7 +74,7 @@
     <featured>true</featured>
     <description/>
     <package>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/1773704804_Lumia-Camera-5.0.2.54.appx</package>
-    <pcCapable>false</pcCapable>
+    <pcCapable>ture</pcCapable>
     <mobileCapable>true</mobileCapable>
   </app>
   <app id="msn-news">
@@ -341,7 +341,7 @@
     <screenshot3>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/minecraft2-1775849254.png</screenshot3>
     <screenshot4>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/minecraft3-1775849256.png</screenshot4>
     <screenshot5>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/minecraft6-1775849258.png</screenshot5>
-    <pcCapable>false</pcCapable>
+    <pcCapable>ture</pcCapable>
     <mobileCapable>true</mobileCapable>
   </app>
   <app id="10-tore-1-0-atched">
@@ -355,6 +355,23 @@
     <screenshot1>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/image-1775903023.png</screenshot1>
     <pcCapable>true</pcCapable>
     <mobileCapable>true</mobileCapable>
+  </app>
+  <app id="10-tore">
+    <name>10Store</name>
+    <version>2.7.0.0</version>
+    <icon>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/storelogo.scale-400-1775903658.png</icon>
+    <publisher>DraydenYT</publisher>
+    <featured>false</featured>
+    <description>10Store, The best store alternative on Windows 10, Fast, Straightforward, And easy to use, Get it on Windows 10 Mobile, Surface, and a Windows 10 1507+ PC.</description>
+    <package>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/10StoreBETA_2.7.0.0_AnyCPU-1775903657.appx</package>
+    <screenshot1>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/3-1775903659.png</screenshot1>
+    <screenshot2>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/2-1775903660.png</screenshot2>
+    <screenshot3>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/1-1775903661.png</screenshot3>
+    <screenshot4>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/4-1775903662.png</screenshot4>
+    <screenshot5>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/5-1775903664.png</screenshot5>
+    <pcCapable>true</pcCapable>
+    <mobileCapable>true</mobileCapable>
+    <drayYTproject>true</drayYTproject>
   </app>
   <app id="onnect4">
     <name>Connect4</name>
@@ -501,6 +518,19 @@
     Stream DankFM straight from your Windows 8.1 device and experience... a CD collection LOL</description>
     <package>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/DankFM-1777236949.appx</package>
     <screenshot1>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/image-1777236952.png</screenshot1>
+    <pcCapable>true</pcCapable>
+    <mobileCapable>false</mobileCapable>
+    <win81compatible>true</win81compatible>
+  </app>
+  <app id="hris-illo-usic">
+    <name>ChrisRLillo Music</name>
+    <version>1.2.1.0</version>
+    <icon>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/Logo.scale-100-1777458131.png</icon>
+    <publisher>ChrisRLillo</publisher>
+    <featured>false</featured>
+    <description>Discover music, updates, and exclusive content from ChrisRLillo.</description>
+    <package>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/ChrisRLillo-Music_1.2.1.0_AnyCPU-1777458128.appxbundle</package>
+    <screenshot1>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/rlillo-1777458133.png</screenshot1>
     <pcCapable>true</pcCapable>
     <mobileCapable>false</mobileCapable>
     <win81compatible>true</win81compatible>
@@ -751,7 +781,7 @@
     <icon>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/hill-climb-racing-lite-logo-1777979634.jpg</icon>
     <publisher>FingerSoft</publisher>
     <featured>false</featured>
-    <description> One of the most addictive and entertaining physics based driving game ever made! And it's free! Meet Newton Bill, the young aspiring uphill racer. He is about to embark on a journey that takes him to where no ride has ever been before. With little respect to the laws of physics, Newton Bill will not rest until he has conquered the highest hills up on the moon! Face the challenges of unique hill climbing environments with many different cars. Gain bonuses from daring tricks and collect coins to upgrade your car and reach even higher distances. Watch out though - Bill's stout neck is not what it used to be when he was a kid! And his good ol' gasoline crematorium will easily run out of fuel. Like us at Facebook and stay tuned with all new games and updates: http://www.facebook.com/Fingersoft We'd appreciate if you'd report any issues you're having with the game to support@fingersoft.net, please include your device make and model. <description>
+    <description/>
     <package>https://appxboxdl.dankassassin368.com/Windows%208.1%20APPX%20Files/Games/Hill%20Climb%20Racing/Fingersoft.HillClimbRacing_1.29.10.71_x86__r6rtpscs7gwyg.appx</package>
     <pcCapable>true</pcCapable>
     <mobileCapable>false</mobileCapable>
@@ -1056,7 +1086,7 @@
     <mobileCapable>false</mobileCapable>
     <win81compatible>false</win81compatible>
   </app>
-  <app id="icrosoft-liplets-arm-rt">
+  <app id="link-liplets">
     <name>Microsoft BLINK Cliplets (ARM/RT)</name>
     <version>1.0.1.0</version>
     <icon>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/Small-Logo-targetsize-256-1778090046.png</icon>
@@ -1131,7 +1161,7 @@
     <mobileCapable>false</mobileCapable>
     <win81compatible>true</win81compatible>
   </app>
-  <app id="dobe-eader-ouch-arm-rt">
+  <app id="dobe-eader-ouch">
     <name>Adobe Reader Touch (ARM/RT)</name>
     <version>1.3.8.4476</version>
     <icon>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/metro_reader_small_logo.targetsize-256-1778832743.png</icon>
@@ -1237,7 +1267,7 @@
     <mobileCapable>false</mobileCapable>
     <win81compatible>true</win81compatible>
   </app>
-  <app id="hazam-arm-rt">
+  <app id="hazam">
     <name>Shazam</name>
     <version>1.5.0.408 x64</version>
     <icon>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/SmallLogo.targetsize-256-1779152031.png</icon>
@@ -1315,202 +1345,4 @@
     <mobileCapable>false</mobileCapable>
     <win81compatible>true</win81compatible>
   </app>
-  <app id="arth-onders">
-    <name>BBC Earth Wonders</name>
-    <version>2014.205.47.2699</version>
-    <icon>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/logo-1779157799.png</icon>
-    <publisher>BBC Worldwide Ltd</publisher>
-    <featured>false</featured>
-    <description>This BBC Earth Wonders app showcases some of the most beautiful BBC natural history content, taken from landmark series such as Planet Earth, Frozen Planet and Life, along with stunning images from world-renowned natural history photographers. We won’t give it all away now, of course, but with this app you’ll learn an astonishing fact (or two) about the diminutive spectral tarsier, one of the world’s most unusual and secretive primates. The killer whale is a whale by name only - can you imagine what species it actually is? * Explore points of interest * Explore all the content by using a simple map interface - toggle easily between themes. For example ‘Bone smashers’ in Bird wonders, or ‘Awesome aurora’ and ‘Crystal caves’ from the theme of Beautiful wonders. * HD video * Each of the 50 points of interest has a 30 second clip of pin-sharp HD video, up to three hi-res full-screen images and facts written by the BBC’s natural history team. *Picture of the day* There’s a new picture to enjoy each day of the year. Each picture of the day is accompanied by a little-known fact - so remember to check each day. Did you know, for example, that some studies show that chimpanzees may suffer from mid-life crises? Or that the mantid has just one ear...located on its belly? --------------------------------------- **PLEASE NOTE** This app features 700MB of downloadable video content and we recommend that you have a steady wifi connection when using it on a tablet. Map locations are approximate. --------------------------------------- Want more natural history? Visit bbcearth.com to learn more about nature’s most incredible stories, or join us on Facebook at facebook.com/PlanetEarth. --------------------------------------- This app is produced by BBC Worldwide, the commercial arm of the BBC. BBC Worldwide is self-funded and returns profits to the BBC to be reinvested in programmes and services to help keep the UK licence fee as low as possible. For those who wonder why our apps aren't free, BBC Worldwide has the responsibility of channelling funds back to the BBC, so the BBC can continue to create amazing content.</description>
-    <package>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/BBCWorldwideLtd.BBCEarthWonders_1.1.0.2_neutral__g2s5c4trewyqj-1779157794.appx</package>
-    <screenshot1>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/screenshot-1-1779157801.png</screenshot1>
-    <screenshot2>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/screenshot-2-1779157804.png</screenshot2>
-    <screenshot3>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/screenshot-3-1779157805.png</screenshot3>
-    <screenshot4>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/screenshot-4-1779157807.png</screenshot4>
-    <screenshot5>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/screenshot-5-1779157809.png</screenshot5>
-    <pcCapable>true</pcCapable>
-    <mobileCapable>false</mobileCapable>
-    <win81compatible>true</win81compatible>
-  </app>
-  <app id="amsung-rinter-xperience">
-    <name>Samsung Printer Experience</name>
-    <version>1.3.15.0</version>
-    <icon>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/Logo-1779159422.png</icon>
-    <publisher>Samsung Electronics Co. Ltd.</publisher>
-    <featured>false</featured>
-    <description>Samsung Printer Experience is an application that lets users manage and control Samsung printers and MFPs. With this free application's simple user interface, users can easily scan and print with Samsung multifunctional printers. Samsung Printer Experience brings further flexibility and convenience to users by supporting several advanced settings and status notifications, as well as ordering supplies and viewing troubleshooting guides. [Supported model list] http://www.samsungsetup.com/ts/manual/SupportedModelList.html</description>
-    <package>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/SAMSUNGELECTRONICSCO.LTD.SamsungPrinterExperience_1.3.15.0_x86__3c1yjt4zspk6g-1779159418.appx</package>
-    <screenshot1>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/1-1779159424.png</screenshot1>
-    <screenshot2>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/2-1779159426.png</screenshot2>
-    <screenshot3>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/3-1779159428.png</screenshot3>
-    <screenshot4>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/4-1779159429.png</screenshot4>
-    <screenshot5>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/5-1779159430.png</screenshot5>
-    <pcCapable>true</pcCapable>
-    <mobileCapable>false</mobileCapable>
-    <win81compatible>true</win81compatible>
-  </app>
-  <app id="odafone-obile-roadband">
-    <name>Vodafone Mobile Broadband</name>
-    <version>1.1.6.472</version>
-    <icon>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/logo-1779160767.png</icon>
-    <publisher>Vodafone Group Services</publisher>
-    <featured>false</featured>
-    <description>This application helps you manage your mobile world. Access your online account, get messages, special offers, and find help and support. You can use this app with a Vodafone or partner SIM card and a mobile broadband device like a USB dongle or modem. To find out which mobile broadband devices are compatible, go to the ‘Details’ screen or search the FAQs.</description>
-    <package>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/VodafoneGroupServices.VodafoneMobileBroadband_1.1.6.472_neutral__cx08jceyq9bcp-1779160765.appx</package>
-    <screenshot1>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/1-1779160769.png</screenshot1>
-    <screenshot2>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/2-1779160770.png</screenshot2>
-    <screenshot3>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/3-1779160773.png</screenshot3>
-    <pcCapable>true</pcCapable>
-    <mobileCapable>false</mobileCapable>
-    <win81compatible>true</win81compatible>
-  </app>
-  <app id="etwork-peed-est">
-    <name>Network Speed Test</name>
-    <version>1.0.0.23</version>
-    <icon>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/Logo-1779220710.png</icon>
-    <publisher>Microsoft Research</publisher>
-    <featured>false</featured>
-    <description>How fast is your Internet connection? Network Speed Test measures your network delay, download speed and upload speed. Using servers all over the world, Network Speed Test measures your network connection’s latency and throughput. Based on your connection’s speed, Network Speed Test will tell you what activities you might be able to do, such as stream music or video calls. Slide to the right to see a history of your previous tests for easy comparisons. When you test your network using the Network Speed Test, certain characteristics of your device and the network connection will be sent to Microsoft to help improve our understanding of network quality and availability. If you consent, we may also collect information about your location at the time of the test. The data we collect is not associated with you, and will not be used to identify or contact you or for other purposes like targeted marketing. For additional information, see our privacy statement.</description>
-    <package>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/Microsoft.NetworkSpeedTest_1.0.0.23_x64__8wekyb3d8bbwe-1779220709.appx</package>
-    <screenshot1>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/screenshot-1-1779220711.png</screenshot1>
-    <screenshot2>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/screenshot-2-1779220713.png</screenshot2>
-    <screenshot3>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/screenshot-3-1779220715.png</screenshot3>
-    <screenshot4>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/screenshot-4-1779220719.png</screenshot4>
-    <pcCapable>true</pcCapable>
-    <mobileCapable>false</mobileCapable>
-    <win81compatible>true</win81compatible>
-  </app>
-  <app id="news-presso">
-    <name>newsXpresso</name>
-    <version>2.0.2.208</version>
-    <icon>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/Logo.contrast-standard_scale-180-1779288987.png</icon>
-    <publisher>Esobil Incorporated</publisher>
-    <featured>false</featured>
-    <description>newsXpresso is a smart and friendly news reader that allows you to follow real-time news, videos, magazines, and blogs in multiple languages and global regions. Browse through extensive content catalog to create a fully personalized news reading experience. Read beautifully presented articles arranged in a magazine layout, and view interesting YouTube videos in full-screen. Also, with the 3D page flipping effect, the smooth transition gives you the feel of actually flipping a book.</description>
-    <package>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/esobiIncorporated.newsXpressoMetro_2.0.2.208_neutral__sngswjb5h6fyg-1779288984.appx</package>
-    <screenshot1>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/screenshot-1-1779288988.png</screenshot1>
-    <screenshot2>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/screenshot-2-1779288990.png</screenshot2>
-    <screenshot3>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/screenshot-3-1779288993.png</screenshot3>
-    <screenshot4>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/screenshot-4-1779288996.png</screenshot4>
-    <screenshot5>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/screenshot-5-1779288999.png</screenshot5>
-    <pcCapable>true</pcCapable>
-    <mobileCapable>false</mobileCapable>
-    <win81compatible>true</win81compatible>
-  </app>
-  <app id="odo-arm">
-    <name>Todo(ARM)</name>
-    <version>1.3.1.64</version>
-    <icon>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/Square150x150Logo.scale-100-1779349860.png</icon>
-    <publisher>Yaniv Katan</publisher>
-    <featured>false</featured>
-    <description>★ Todo is a powerful and intuitive tasks manager. ★ See your tasks on the app's live tile, and set tasks notifications. ★ Repeating tasks (daily, weekly...), e.g. "Pay credit card" every month. Once completed, the task's date is updated to the next month. ★ Multi-level sub-tasking. ★ Very clean, responsive (fast) and intuitive user interface. ★ Customizable tasks view &amp; full search support.</description>
-    <package>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/21767Katans.Todo_1.3.1.64_arm__ey1k83fg9dn8w-1779349858.appx</package>
-    <screenshot1>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/todo1-1779349861.png</screenshot1>
-    <screenshot2>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/todo2-1779349862.png</screenshot2>
-    <screenshot3>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/todo3-1779349864.png</screenshot3>
-    <screenshot4>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/todo4-1779349865.png</screenshot4>
-    <screenshot5>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/todo5-1779349868.png</screenshot5>
-    <pcCapable>true</pcCapable>
-    <mobileCapable>false</mobileCapable>
-    <win81compatible>true</win81compatible>
-  </app>
-  <app id="odo-x64">
-    <name>Todo(x64)</name>
-    <version>1.3.1.64</version>
-    <icon>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/Square150x150Logo.scale-100-1779350035.png</icon>
-    <publisher>Yaniv Katan</publisher>
-    <featured>false</featured>
-    <description>★ Todo is a powerful and intuitive tasks manager. ★ See your tasks on the app's live tile, and set tasks notifications. ★ Repeating tasks (daily, weekly...), e.g. "Pay credit card" every month. Once completed, the task's date is updated to the next month. ★ Multi-level sub-tasking. ★ Very clean, responsive (fast) and intuitive user interface. ★ Customizable tasks view &amp; full search support.</description>
-    <package>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/21767Katans.Todo_1.3.1.64_x64__ey1k83fg9dn8w-1779350033.appx</package>
-    <screenshot1>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/todo1-1779350037.png</screenshot1>
-    <screenshot2>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/todo2-1779350038.png</screenshot2>
-    <screenshot3>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/todo3-1779350039.png</screenshot3>
-    <screenshot4>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/todo4-1779350040.png</screenshot4>
-    <screenshot5>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/todo5-1779350041.png</screenshot5>
-    <pcCapable>true</pcCapable>
-    <mobileCapable>false</mobileCapable>
-    <win81compatible>true</win81compatible>
-  </app>
-  <app id="odo-x86">
-    <name>Todo(x86)</name>
-    <version>1.3.1.64</version>
-    <icon>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/Square150x150Logo.scale-100-1779350082.png</icon>
-    <publisher>Yaniv Katan</publisher>
-    <featured>false</featured>
-    <description>★ Todo is a powerful and intuitive tasks manager. ★ See your tasks on the app's live tile, and set tasks notifications. ★ Repeating tasks (daily, weekly...), e.g. "Pay credit card" every month. Once completed, the task's date is updated to the next month. ★ Multi-level sub-tasking. ★ Very clean, responsive (fast) and intuitive user interface. ★ Customizable tasks view &amp; full search support.</description>
-    <package>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/21767Katans.Todo_1.3.1.64_x86__ey1k83fg9dn8w-1779350079.appx</package>
-    <screenshot1>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/todo1-1779350083.png</screenshot1>
-    <screenshot2>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/todo2-1779350084.png</screenshot2>
-    <screenshot3>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/todo3-1779350085.png</screenshot3>
-    <screenshot4>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/todo4-1779350086.png</screenshot4>
-    <screenshot5>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/todo5-1779350088.png</screenshot5>
-    <pcCapable>true</pcCapable>
-    <mobileCapable>false</mobileCapable>
-    <win81compatible>true</win81compatible>
-  </app>
-  <app id="my-ube-atched">
-    <name>myTube! Patched</name>
-    <version>2.7.0.21</version>
-    <icon>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/Captura-de-pantalla-2026-05-20-225849-1779339665.png</icon>
-    <publisher>Ryken Studio</publisher>
-    <featured>false</featured>
-    <description>A fast and easy YouTube client</description>
-    <package>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/myTube-Patched-1779339663.appx</package>
-    <screenshot1>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/Captura-de-pantalla-1-1779339669.png</screenshot1>
-    <pcCapable>true</pcCapable>
-    <mobileCapable>false</mobileCapable>
-    <win81compatible>true</win81compatible>
-  </app>
-  <app id="etworks">
-    <name>FX Networks(ARM)</name>
-    <version>1.2.3.105</version>
-    <icon>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/default_small-1779353334.png</icon>
-    <publisher>FX Networks, LLC</publisher>
-    <featured>false</featured>
-    <description>The FX Networks app for Windows 8 is your personal companion viewing experience for all your favorite FX shows and blockbuster movies. When you watch your favorite shows on FX, you can now use the FX Windows 8 app to engage even more with American Horror Story, Sons of Anarchy, Justified, It's Always Sunny in Philadelphia, Anger Management, Louie, Wilfred, Archer, The League, Totally Biased with W. Kamau Bell, and Brand X with Russell Brand. Join in Live conversations with other fans across your favorite social platforms, plus check-in for stickers, watch video clips and more. Use the FX Networks Windows 8 app to also connect with FX Has the Movies and your favorite box office hits showing on FX.</description>
-    <package>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/21767Katans.Todo_1.3.1.64_arm__ey1k83fg9dn8w-1779353332.appx</package>
-    <screenshot1>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/fxnetworks1-1779353335.png</screenshot1>
-    <screenshot2>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/fxnetworks2-1779353337.png</screenshot2>
-    <screenshot3>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/fxnetworks3-1779353340.png</screenshot3>
-    <screenshot4>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/fxnetworks4-1779353342.png</screenshot4>
-    <screenshot5>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/fxnetworks5-1779353344.png</screenshot5>
-    <pcCapable>true</pcCapable>
-    <mobileCapable>false</mobileCapable>
-    <win81compatible>true</win81compatible>
-  </app>
-  <app id="etworks-x64">
-    <name>FX Networks(x64)</name>
-    <version>1.2.3.105</version>
-    <icon>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/default_small-1779355193.png</icon>
-    <publisher>FX Networks, LLC</publisher>
-    <featured>false</featured>
-    <description>The FX Networks app for Windows 8 is your personal companion viewing experience for all your favorite FX shows and blockbuster movies. When you watch your favorite shows on FX, you can now use the FX Windows 8 app to engage even more with American Horror Story, Sons of Anarchy, Justified, It's Always Sunny in Philadelphia, Anger Management, Louie, Wilfred, Archer, The League, Totally Biased with W. Kamau Bell, and Brand X with Russell Brand. Join in Live conversations with other fans across your favorite social platforms, plus check-in for stickers, watch video clips and more. Use the FX Networks Windows 8 app to also connect with FX Has the Movies and your favorite box office hits showing on FX.</description>
-    <package>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/21767Katans.Todo_1.3.1.64_x64__ey1k83fg9dn8w-1779355192.appx</package>
-    <screenshot1>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/fxnetworks1-1779355195.png</screenshot1>
-    <screenshot2>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/fxnetworks2-1779355196.png</screenshot2>
-    <screenshot3>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/fxnetworks3-1779355199.png</screenshot3>
-    <screenshot4>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/fxnetworks4-1779355203.png</screenshot4>
-    <screenshot5>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/fxnetworks5-1779355205.png</screenshot5>
-    <pcCapable>true</pcCapable>
-    <mobileCapable>false</mobileCapable>
-    <win81compatible>true</win81compatible>
-  </app>
-  <app id="etworks-x86">
-    <name>FX Networks(x86)</name>
-    <version>1.2.3.105</version>
-    <icon>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/default_small-1779355066.png</icon>
-    <publisher>FX Networks, LLC</publisher>
-    <featured>false</featured>
-    <description>The FX Networks app for Windows 8 is your personal companion viewing experience for all your favorite FX shows and blockbuster movies. When you watch your favorite shows on FX, you can now use the FX Windows 8 app to engage even more with American Horror Story, Sons of Anarchy, Justified, It's Always Sunny in Philadelphia, Anger Management, Louie, Wilfred, Archer, The League, Totally Biased with W. Kamau Bell, and Brand X with Russell Brand. Join in Live conversations with other fans across your favorite social platforms, plus check-in for stickers, watch video clips and more. Use the FX Networks Windows 8 app to also connect with FX Has the Movies and your favorite box office hits showing on FX.</description>
-    <package>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/21767Katans.Todo_1.3.1.64_x86__ey1k83fg9dn8w-1779355064.appx</package>
-    <screenshot1>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/fxnetworks1-1779355068.png</screenshot1>
-    <screenshot2>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/fxnetworks2-1779355070.png</screenshot2>
-    <screenshot3>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/fxnetworks3-1779355072.png</screenshot3>
-    <screenshot4>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/fxnetworks4-1779355074.png</screenshot4>
-    <screenshot5>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/fxnetworks5-1779355076.png</screenshot5>
-    <pcCapable>true</pcCapable>
-    <mobileCapable>false</mobileCapable>
-    <win81compatible>true</win81compatible>
-  </app>
-</apps>
 </data>
