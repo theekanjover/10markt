@@ -590,7 +590,7 @@
     <win81compatible>true</win81compatible>
   </app>
   <app id="oney">
-    <name>MSN Money</name>
+    <name>MSN Money 8.1</name>
     <version>2016.408.1841.3666</version>
     <icon>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/Finance-1777821902.png</icon>
     <publisher>Microsoft Corporation</publisher>
