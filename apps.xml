@@ -1161,7 +1161,7 @@
     <mobileCapable>false</mobileCapable>
     <win81compatible>true</win81compatible>
   </app>
-  <app id="dobe-eader-ouch">
+  <app id="dobe-eader-ouch-arm-rt">
     <name>Adobe Reader Touch (ARM/RT)</name>
     <version>1.3.8.4476</version>
     <icon>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/metro_reader_small_logo.targetsize-256-1778832743.png</icon>
