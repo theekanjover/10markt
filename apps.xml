@@ -1585,8 +1585,8 @@
     <mobileCapable>false</mobileCapable>
     <win81compatible>true</win81compatible>
   </app>
-  <app id="adon-rowzer">
-    <name>Radon Browzer</name>
+  <app id="adon-rowser">
+    <name>Radon Browser</name>
     <version>1.14.16</version>
     <icon>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/278850855-feaa49da-9efd-40a7-9aec-9754c210ae09-1779540050.png</icon>
     <publisher>itzbluebxrry</publisher>
