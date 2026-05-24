@@ -511,7 +511,7 @@
     <win81compatible>true</win81compatible>
   </app>
   <app id="a-uide-to-8-tore">
-    <name>a Guide to 8Store</name>
+    <name>A guide to 8Store</name>
     <version>1.0.0.2</version>
     <icon>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/StoreLogo.scale-100-1777478398.png</icon>
     <publisher>DraydenYT</publisher>
