@@ -1663,7 +1663,7 @@
     <mobileCapable>false</mobileCapable>
     <win81compatible>true</win81compatible>
   </app>
-  <app id="etpack-oyride">
+  <app id="etpack-oyride-arm">
     <name>Jetpack Joyride(ARM/RT)</name>
     <version>1.0.3.68</version>
     <icon>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/jetpack_joyride_win8_title_tile_xbl_150x150-1779619477.png</icon>
