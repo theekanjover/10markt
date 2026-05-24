@@ -603,8 +603,8 @@
     <mobileCapable>false</mobileCapable>
     <win81compatible>true</win81compatible>
   </app>
-  <app id="ports">
-    <name>MSN Sports 8.1</name>
+  <app id="ports-81">
+    <name>MSN Sports</name>
     <version>2016.427.112.4030</version>
     <icon>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/Sports-1777823416.png</icon>
     <publisher>Microsoft Corporation</publisher>
