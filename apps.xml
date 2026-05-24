@@ -10,7 +10,7 @@
   </quotes>
   <categories>
     <category title="Featured" type="featured"/>
-    <category title="Picks for you" type="picks" featured="true">
+    <category title="Top free apps" type="picks" featured="true">
       <appIds>ut-the-ope,draymusic,lumia-camera,smiling-bag-clicker-for-windows-8-1,pp-for-indows,dobe-eader-ouch,dobe-hotoshop-xpress</appIds>
     </category>
     <category title="Top Games" type="picks">
