@@ -10,23 +10,23 @@
   </quotes>
   <categories>
     <category title="Featured" type="featured"/>
-    <category title="Top free apps" type="picks" featured="true">
-      <appIds>pp-for-indows,dobe-eader-ouch,dobe-hotoshop-xpress</appIds>
+    <category title="Picks for you" type="picks" featured="true">
+      <appIds>ut-the-ope,draymusic,lumia-camera,smiling-bag-clicker-for-windows-8-1,pp-for-indows,dobe-eader-ouch,dobe-hotoshop-xpress</appIds>
     </category>
-    <category title="This is your 2016" type="picks">
+    <category title="Top Games" type="picks">
       <appIds>ut-the-ope,smiling-bag-clicker-for-windows-8-1,inecraft</appIds>
     </category>
-    <category title="Best rated games" type="picks" featured="true">
+    <category title="Staff picks" type="picks" featured="true">
       <appIds>etro-ommander,8-ip,ports,resh-aint-uwp,etflix</appIds>
     </category>
-    <category title="Top free games" type="picks" featured="true">
+    <category title="DraydenYT Apps" type="picks" featured="true">
       <appIds>draymusic,ray-usic-for-indows-10,smiling-bag-clicker-for-windows-8-1,ray-i-or-indows-10,10-tore-1-0-atched,10-tore,app-1777048102,a-uide-to-8-tore</appIds>
     </category>
-    <category title="See what's new in the Store" type="picks">
+    <category title="Dependencies" type="picks">
       <appIds>icrosoft-ibs,icrosoft-ibs-for-32-bits,icrosoft-ative-ramework,icrosoft-dvertising,icrosoft</appIds>
     </category>
-    <category title="Racing games" type="picks">
-      <appIds>ill-limb-acing</appIds>
+    <category title="Games" type="picks">
+      <appIds>rowser-uest,ut-the-ope,miling-ag-licker-for-indows-10,smiling-bag-clicker-for-windows-8-1,iano-ime-ro,inecraft,onnect4</appIds>
     </category>
     <category title="Apps" type="picks">
       <appIds>msn-weather,draymusic,lumia-camera,msn-news,msn-money,ray-usic-for-indows-10,enon-tore,etro-ommander,8-ip,ray-i-or-indows-10,ports,etronome,peak,10-tore-1-0-atched,10-tore,hris-illo-usic,ing,etflix,z-lay-eady-upiter-pp,resh-aint,hrome-etro-lient</appIds>
@@ -511,7 +511,7 @@
     <win81compatible>true</win81compatible>
   </app>
   <app id="a-uide-to-8-tore">
-    <name>A guide to 8Store</name>
+    <name>a Guide to 8Store</name>
     <version>1.0.0.2</version>
     <icon>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/StoreLogo.scale-100-1777478398.png</icon>
     <publisher>DraydenYT</publisher>
@@ -547,7 +547,7 @@
     <win81compatible>true</win81compatible>
   </app>
   <app id="eather">
-    <name>MSN Weather</name>
+    <name>MSN Weather 8.1</name>
     <version>2016.1014.23.3280</version>
     <icon>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/Weather-1777815807.png</icon>
     <publisher>Microsoft Corporation</publisher>
@@ -560,7 +560,7 @@
     <win81compatible>true</win81compatible>
   </app>
   <app id="ews">
-    <name>MSN News</name>
+    <name>MSN News 8.1</name>
     <version>2016.408.1840.2841</version>
     <icon>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/News-1777816155.png</icon>
     <publisher>Microsoft Corporation</publisher>
@@ -578,7 +578,7 @@
     <win81compatible>true</win81compatible>
   </app>
   <app id="oney">
-    <name>MSN Money</name>
+    <name>MSN Money 8.1</name>
     <version>2016.408.1841.3666</version>
     <icon>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/Finance-1777821902.png</icon>
     <publisher>Microsoft Corporation</publisher>
@@ -603,8 +603,8 @@
     <mobileCapable>false</mobileCapable>
     <win81compatible>true</win81compatible>
   </app>
-  <app id="ports-81">
-    <name>MSN Sports</name>
+  <app id="ports">
+    <name>MSN Sports 8.1</name>
     <version>2016.427.112.4030</version>
     <icon>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/Sports-1777823416.png</icon>
     <publisher>Microsoft Corporation</publisher>
@@ -615,8 +615,8 @@
     <mobileCapable>false</mobileCapable>
     <win81compatible>true</win81compatible>
   </app>
-  <app id="resh-aint-metro">
-    <name>Fresh Paint</name>
+  <app id="resh-aint">
+    <name>Fresh Paint 8.1</name>
     <version>2.0.15133.0</version>
     <icon>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/apps.44755.9007199266251806.c139e5fd-5846-4901-9106-acd4938a4006-1777843948.png</icon>
     <publisher>Microsoft Corporation</publisher>
@@ -752,6 +752,18 @@
     <package>https://appxboxdl.dankassassin368.com/Windows%2010%20APPX%20Files/Games/Transport%20Empire/0EB8BD08.TransportEmpire_3.0.38.0_neutral_~_erk4rrwmt7jyt.appxbundle</package>
     <pcCapable>true</pcCapable>
     <mobileCapable>false</mobileCapable>
+    <win81compatible>false</win81compatible>
+  </app>
+  <app id="aint3">
+    <name>Paint3D</name>
+    <version>2.1703.21017.1000</version>
+    <icon>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/hqdefault-1777987721.jpg</icon>
+    <publisher>Microsoft</publisher>
+    <featured>false</featured>
+    <description/>
+    <package>https://github.com/thedoggybrad/Paint3DArchive/releases/download/b1/2.1703.21017.1000.AppxBundle</package>
+    <pcCapable>true</pcCapable>
+    <mobileCapable>true</mobileCapable>
     <win81compatible>false</win81compatible>
   </app>
   <app id="ray-for-windows-8-1">
