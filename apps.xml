@@ -9,16 +9,16 @@
   </quotes>
   <categories>
     <category title="Featured" type="featured"/>
-    <category title="Picks for you" type="picks">
+    <category title="Picks for you" type="picks" featured="true">
       <appIds>ut-the-ope,draymusic,lumia-camera,smiling-bag-clicker-for-windows-8-1,pp-for-indows,dobe-eader-ouch,dobe-hotoshop-xpress</appIds>
     </category>
     <category title="Top Games" type="picks">
       <appIds>ut-the-ope,smiling-bag-clicker-for-windows-8-1,inecraft</appIds>
     </category>
-    <category title="Staff picks" type="picks">
+    <category title="Staff picks" type="picks" featured="true">
       <appIds>etro-ommander,8-ip,ports,resh-aint-uwp,etflix</appIds>
     </category>
-    <category title="DraydenYT Apps" type="picks">
+    <category title="DraydenYT Apps" type="picks" featured="true">
       <appIds>draymusic,ray-usic-for-indows-10,smiling-bag-clicker-for-windows-8-1,ray-i-or-indows-10,10-tore-1-0-atched,10-tore,app-1777048102,a-uide-to-8-tore</appIds>
     </category>
     <category title="Dependencies" type="picks">
@@ -30,7 +30,7 @@
     <category title="Apps" type="picks">
       <appIds>msn-weather,draymusic,lumia-camera,msn-news,msn-money,ray-usic-for-indows-10,enon-tore,etro-ommander,8-ip,ray-i-or-indows-10,ports,etronome,peak,10-tore-1-0-atched,10-tore,hris-illo-usic,ing,etflix,z-lay-eady-upiter-pp,resh-aint,hrome-etro-lient</appIds>
     </category>
-    <category title="lost Media" type="picks">
+    <category title="lost Media" type="picks" featured="true">
       <appIds>onnect4,ing,z-lay-eady-upiter-pp,uma-horts</appIds>
     </category>
     <category title="Windows Phone Apps" type="picks">
