@@ -1,6 +1,13 @@
 /* ©DraydenYT 2026 - Do not use without permission */
 
 @font-face {
+    font-family: "win-text";
+    src: url("segoeui.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: "win-icon";
     src: url("seguisym.ttf") format("truetype");
     font-weight: normal;
@@ -9,7 +16,7 @@
 
 /* Windows 8 in CSS by DraydenYT - Dark Theme */
 body.win-dark {
-    font-family: "Segoe UI";
+    font-family: "win-text";
     background: #1d1d1d;
     color: white;
     user-select: none;
@@ -85,7 +92,7 @@ body.win-dark .winround-button:disabled {
 
 /* Windows 8 in CSS by DraydenYT - Light Theme */
 body.win-light {
-    font-family: "Segoe UI";
+    font-family: "win-text";
     background: #ffffff;
     color: #000000;
     user-select: none;
