@@ -484,6 +484,7 @@
     <pcCapable>true</pcCapable>
     <mobileCapable>false</mobileCapable>
     <win81compatible>true</win81compatible>
+    <drayYTproject>true</drayYTproject>
   </app>
   <app id="ank">
     <name>DankFM</name>
