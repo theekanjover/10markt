@@ -69,6 +69,7 @@
     <pcCapable>true</pcCapable>
     <mobileCapable>false</mobileCapable>
     <win81compatible>true</win81compatible>
+    <drayYTproject>true</drayYTproject>
   </app>
   <app id="lumia-camera">
     <name>Lumia Camera</name>
