@@ -34,12 +34,12 @@
     <category title="Lost Media" type="picks" featured="true">
       <appIds>onnect4,ing,z-lay-eady-upiter-pp,uma-horts</appIds>
     </category>
-    <category title="Windows Phone Apps" type="picks">
-      <appIds>inecraft,lumia-camera</appIds>
-    </category>
     <category title="Music" type="picks">
       <appIds>
       </appIds>
+    </category>
+    <category title="Windows Phone Apps" type="picks">
+      <appIds>inecraft,lumia-camera</appIds>
     </category>
   </categories>
   <apps/>
