@@ -1583,7 +1583,7 @@
     <publisher>Microsoft Corporation</publisher>
     <featured>false</featured>
     <description>SharePoint Newsfeed lets you stay connected to your organization’s social pulse while on the go. You can easily navigate your feeds and interact with the conversations from SharePoint sites you are following. Note: The SharePoint Newsfeed app works with SharePoint 2013 and the new SharePoint Online. Previous versions of SharePoint are not supported. When you are signing in, you will need your username, password. If you are having issues signing in, please contact your company’s SharePoint administrator to inquire about the proper credentials.</description>
-    <package>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/Microsoft.SharePoint2013Newsfeed_16.0.2130.1050_x64__8wekyb3d8bbwe-1779563890.appx</package>
+    <package>https://files.catbox.moe/awm45f.Appx</package>
     <screenshot1>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/newsfeed-1779563893.png</screenshot1>
     <screenshot2>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/thread-view-1779563894.png</screenshot2>
     <screenshot3>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/posting-1779563896.png</screenshot3>
