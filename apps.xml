@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
   <quotes>
-    <quote>10Store Accounts When???</quote>
-    <quote>Downloading more RAM...</quote>
-    <quote>Time to start your Windows App adventure!!!</quote>
-    <quote>Welcome to 10Store!</quote>
-    <quote>Welcome to DraydenYT Projects!</quote>
-    <quote>Something big is coming #10Store3</quote>
+    <quote>emesen mani da goat</quote>
+    <quote>tetify helped me on this</quote>
+    <quote>i want a polycarbonate macbook</quote>
+    <quote>welcum to 10markt</quote>
+    <quote>jover is so dumb</quote>
+    <quote>windows till i die</quote>
   </quotes>
   <categories>
     <category title="Featured" type="featured"/>
@@ -42,6 +42,19 @@
     </category>
   </categories>
   <apps/>
+   <app id="cumming-soon">
+    <name>work in progress, download luma store instead</name>
+    <version>4.4.193.0</version>
+    <icon>https://media.licdn.com/dms/image/v2/C5112AQFJSqouBrY4ig/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1572274275044?e=2147483647&v=beta&t=GJj42NpUaIKfiXZea9YNXl7eXLbXyYQHCm1V6Ojx7ho</icon>
+    <publisher>Microsoft Corporation</publisher>
+    <featured>true</featured>
+    <description>MSN Weather: The best way to plan your day.
+    Get the latest weather conditions, whether you're hitting the slopes, or the beach, or checking the forecast for your commute. See accurate 10-day and hourly forecasts for whatever you do.</description>
+    <package>https://raw.githubusercontent.com/draydenthemiiyt-maker/10-Store/refs/heads/main/files/1773702852_Microsoft.BingWeather_4.3.193.0_x86__8wekyb3d8bbwe.appx</package>
+    <pcCapable>true</pcCapable>
+    <mobileCapable>false</mobileCapable>
+    <win81compatible>false</win81compatible>
+  </app>
   <app id="msn-weather">
     <name>MSN Weather</name>
     <version>4.4.193.0</version>
